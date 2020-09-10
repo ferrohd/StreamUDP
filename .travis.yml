@@ -1,0 +1,7 @@
+language: nodejs
+branches:
+  only:
+  - master
+
+script:
+  - npm run build

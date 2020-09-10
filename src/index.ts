@@ -1,7 +1,7 @@
 import { Duplex } from 'stream'
 import * as dgram from 'dgram'
 
-export class UDPStream extends Duplex {
+export class StreamUDP extends Duplex {
     private socket: dgram.Socket = dgram.createSocket('udp4')
     private should_read = true
     constructor() {
