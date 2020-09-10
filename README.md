@@ -50,4 +50,4 @@ StreamUDP Class extends [Duplex Stream](https://nodejs.org/api/stream.html "Node
 
 
 ## Contributing
-Feel free to contribute, just open a PR. I apologize for any errors but this is my first repo of a public NPM Pakckage, also english is not my first tongue.
+Feel free to contribute, just open a PR. I apologize for any errors but this is my first repo of a public NPM Pakckage, also english is not my first language.
