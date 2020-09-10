@@ -1,6 +1,7 @@
 # StreamUDP
 
-![npm](https://img.shields.io/npm/v/stream-udp?style=flat-square)
+![npm](https://img.shields.io/npm/v/stream-udp)
+[![Build Status](https://travis-ci.org/ferrohd/StreamUDP.svg?branch=master)](https://travis-ci.org/ferrohd/StreamUDP)
 
 Blazing-fast Node Stream implementation over UDP. You can *stream* your Stream using UDP protocol.
 ## Install
