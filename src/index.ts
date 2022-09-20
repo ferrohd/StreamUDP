@@ -2,10 +2,11 @@ import { Duplex } from 'stream'
 import * as dgram from 'dgram'
 
 export class StreamUDP extends Duplex {
-    private socket: dgram.Socket = dgram.createSocket('udp4')
+    private socket: dgram.Socket
     private should_read = true
-    constructor() {
+    constructor(socketType: 'udp4' | 'udp6' = 'udp4') {
         super()
+        this.socket = dgram.createSocket(socketType)
         this.registerListeners()
     }
     public bind(port: number) {
